@@ -368,7 +368,7 @@ header{
   line-height: 1.2;
 }
 
-.content h3
+.content h3{
   color: #4a4a4a;
   font-size: 16px;
   font-face:Roboto-Light;
