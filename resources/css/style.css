@@ -375,6 +375,7 @@ header{
   line-height: 1.2;
 }
 
+
 /* Filters Section */
 
 #filters-section {
@@ -404,6 +405,34 @@ header{
   max-width: 100%;
   padding: 0 1%;
 }
+
+/* New*/
+
+#filters-section{
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.center h2{
+  color: white
+  opacity:100%;
+  font-size:36px;
+  font-family: Roboto-Bold;
+}
+
+.center h3{
+  color:white;
+  font-size: 16px;
+  font-family: Roboto-Light;
+  line-height:1.4;
+}
+
+.images-container{
+  margin-left: 1%;
+  margin-right: 1%;
+  Margin-top: 80px;
+}
+
 
 @media only screen and (max-width: 760px) {
   #filters-section {
@@ -441,7 +470,7 @@ header{
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
@@ -450,7 +479,7 @@ header{
   font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
-  font-style: italic;
+  font-style: Palatino-Italic;
   color: #4a4a4a;
 }
 
@@ -479,7 +508,8 @@ header{
 
 footer {
   background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
+  padding: 0rem 2rem;
+  height: 62px;
 }
 
 footer .content {
@@ -490,6 +520,9 @@ footer .content {
 
 footer .copyright {
   flex-grow: 1;
+  color: white;
+  font-family: Roboto-Regular;
+  font-size: 12px;
 }
 
 @media only screen and (min-width: 760px) {
